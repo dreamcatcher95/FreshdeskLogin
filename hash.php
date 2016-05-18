@@ -36,4 +36,3 @@ if ($bind = ldap_bind($ldap, $username, $password)) {
     $message = "Oops! You've put in the wrong userid/password.";
     echo "<script type='text/javascript'>alert('$message');</script>";
 }
-
